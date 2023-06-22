@@ -16,6 +16,6 @@ export class ProductDiscountDecorator extends ProductDecorator {
 
   getPrice(): number {
     const discount = this.product.getPrice() * (this.percentDiscount / 100);
-    return discount;
+    return this.product.getPrice() - discount;
   }
 }
