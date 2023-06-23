@@ -8,12 +8,14 @@ export class FlightBookingFacade {
   private search: FlightSearch;
   private reservation: SeatReservation;
   private ticketing: Ticketing;
+
   constructor() {
     this.login = new Login();
     this.search = new FlightSearch();
     this.reservation = new SeatReservation();
     this.ticketing = new Ticketing();
   }
+
   bookFlight(
     email: string,
     password: string,

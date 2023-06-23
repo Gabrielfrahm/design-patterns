@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flyweight test factory 1`] = `
+{
+  "avdale_pinda": {
+    "intrinsicState": {
+      "city": "pinda",
+      "street": "av dale",
+    },
+  },
+  "avdale_sp": {
+    "intrinsicState": {
+      "city": "sp",
+      "street": "av dale",
+    },
+  },
+  "avsalame_sp": {
+    "intrinsicState": {
+      "city": "sp",
+      "street": "av salame",
+    },
+  },
+}
+`;
